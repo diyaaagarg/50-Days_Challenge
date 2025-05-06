@@ -33,3 +33,20 @@ We use an iterative method with three pointers to reverse the direction of the l
 Time: O(n)
 Space: O(1)
 
+------------------------------------------------------------------------------------------
+
+# Problem-> 268. Missing Number
+ Approach: XOR Method
+🔸
+XOR of a number with itself is 0 → a ^ a = 0
+
+XOR of a number with 0 is the number itself → a ^ 0 = a
+
+XOR is both commutative and associative
+
+If we XOR all the numbers from 0 to n and XOR them again with all elements in the array, all the matching elements will cancel out, and the remaining result will be the missing number.
+
+## ⏱️ Time and Space Complexity
+TIME:O(n)
+SPACE:O(1)
+
