@@ -1,0 +1,27 @@
+# Day 30
+PROBLEM 543. Diameter of Binary Tree
+✅ Problem Statement:-
+Given the root of a binary tree, return the length of the diameter of the tree.
+The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+The length of a path between two nodes is represented by the number of edges between them.
+
+**Problem Link**: https://leetcode.com/problems/diameter-of-binary-tree/description/
+
+//DO LATER
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Problem-> 287. Find the Duplicate Number
+
+**Problem Link** : https://leetcode.com/problems/find-the-duplicate-number/description/
+
+## 💡Approach
+1.Create a frequency array freq of the same size as nums to count the number of times each value appears.
+2.Traverse the input array:
+->For each element, increment its count in the freq array.
+->If any count exceeds 1, return that element as the duplicate.
+3.If no duplicate is found, return 0 (fallback, though the problem guarantees a duplicate).
+
+## ⏱️ Time and Space Complexity
+TIME:O(n)
+SPACE:O(n)->We use an extra frequency array of size n to store counts.
+
